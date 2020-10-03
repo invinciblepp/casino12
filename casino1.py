@@ -3,12 +3,6 @@ import random
 
 current = 0
 
-
-# initial_balance=0
-# global amount
-# price=amount*10
-# num=0
-# a=0
 def winner():
     global price
     global bet_amount
@@ -222,6 +216,31 @@ def menu():
         exit()
 
 
+=======
+	
+	print("\n Press 1 to play ==> single new game.\n press 2 to open ==> my account.\n Press 3 to play ==> Multiplayer game.\n Press 4 to ==> clear account info.\n Press 5 to ==> quit game. ")
+	print("~~~~~~~~~~~~~~~~~-->~")
+	user_in=int(input("\tEnter your choice : "))
+	if user_in==1:
+		accout()
+		new_game()
+		start_game1()
+	elif user_in==2:
+		myaccount()
+		menu()
+	#	myaccount1()
+		
+	elif user_in==3:
+		Multiplayer()
+		new_game()
+		start_game()
+	elif user_in==4:
+		clearacc()
+		menu()
+	#	clearacc1()
+	else:
+		exit()	
+	 main
 rules()
 print("~~~~~~~~~~~~~~~~~-->~")
 menu()
