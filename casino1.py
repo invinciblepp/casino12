@@ -201,9 +201,9 @@ def menu():
 		clearacc()
 		menu()
 	#	clearacc1()
-	ese:
-		eit()	
+	else:
+		exit()	
 		
-rules
+rules()
 print("~~~~~~~~~~~~~~~~~-->~")
 menu()
